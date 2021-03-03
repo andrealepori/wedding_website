@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Giuly and Ale </title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <!-- Optional theme -->
+
+    
+ <link rel="stylesheet" href="css/countdown.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png" type="image/gif">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/style.css">
+   
+
+
+
+
+    <link rel="stylesheet" href="css/nozze.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+  
+</head>
+
+<body>
+     <header class="top-header">
+        <nav class="navbar header-nav navbar-expand-lg">
+           <div class="container">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
+              <span></span>
+              <span></span>
+              <span></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                 <ul class="navbar-nav">
+                    <li><a class="nav-link active" href="home.html">BLOG DI NOZZE</a></li>
+                    <li><a class="nav-link" href="presenza.html">LISTA DEGLI INVITATI</a></li>
+                    <li><a class="nav-link" href="nozze.html">LUNA DI MIELE</a></li>
+                    <li><a class="nav-link" href="#family">SPECIAL GUEST</a></li>
+                    <li><a class="nav-link" href="gallery.php">FOTO</a></li>
+                 </ul>
+              </div>
+           </div>
+        </nav>
+     </header>
+
+     <div class="bannerpresenza">
+     </div>
+     <div id="contact" class="contact-box">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-12">
+                   <div class="title-box">
+                       <h2>Conferma la presenza</h2>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                   </div>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col-lg-12 col-sm-12 col-xs-12">
+                 <div class="contact-block">
+                   <form id="contactForm">
+                     <div class="row">
+                       <div class="col-md-12">
+                           <div class="form-group">
+                               <input type="text" class="form-control" id="name" name="name" placeholder="Nome e cognome" required data-error="Please enter your name">
+                               <div class="help-block with-errors"></div>
+                           </div>                                 
+                       </div>
+                       <div class="col-md-12">
+                       
+                        <div class="form-group" required data-error="Dichiara la tua intenzione di partecipare">
+                            <select class="custom-select d-block form-control" id="event"  placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
+                              <option required data-error="Dichiara la tua intenzione di partecipare">Dichiara la tua intenzione di partecipare</option>
+                              <option value="1">Parteciperò</option>
+                              <option value="2">Non parteciperò</option>
+                              <option value="3">Non lo so ancora</option>
+                            </select>
+                            <div class="help-block with-errors"></div>
+                    
+                        </div> 
+                    </div>
+                       <div class="col-md-12">
+                         <div class="form-group">
+                               <input type="text" placeholder="Your Email" id="email" class="form-control" name="name" >
+                               <div class="help-block with-errors"></div>
+                           </div> 
+                           
+                       </div>
+                       <div class="col-md-12">
+                           <div class="form-group">
+                               <select class="custom-select d-block form-control" id="guest" required data-error="Please enter your name">
+                                 <option disabled selected >Numero dei partecipanti</option>
+                                 <option value="1">1</option>
+                                 <option value="2">2</option>
+                                 <option value="3">3</option>
+                                 <option value="4">4</option>
+                                 <option value="5">5</option>
+                                 <option value="6">6</option>
+                                 <option value="7">7</option>
+                                 <option value="8">8</option>
+
+                               </select>
+                               <div class="help-block with-errors"></div>
+                           </div> 
+                       </div>
+             
+                       <div class="col-md-12">
+                           <div class="form-group"> 
+                               <textarea class="form-control" id="message" placeholder="Your Message" rows="8" data-error="Write your message" ></textarea>
+                               <div class="help-block with-errors"></div>
+                           </div>
+                           <div class="submit-button text-center">
+                               <button class="btn btn-common" id="submit" type="submit">Send Message</button>
+                               <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                               <div class="clearfix"></div> 
+                           </div>
+                       </div>
+                     </div>            
+                   </form>
+                 </div>
+               </div>
+           </div>
+       </div>
+   </div>
+
+
+   <h1>
+
+   </h1>
+</body>
+<script src="js2/simplyCountdown.js"></script>
+<script src="js2/jquery.min.js"></script>
+<script src="js2/popper.min.js"></script>
+<script src="js2/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/timezz/dist/timezz.min.js"></script>
+<script src="js2/jquery.magnific-popup.min.js"></script>
+<script src="js2/jquery.pogo-slider.min.js"></script> 
+<script src="js2/slider-index.js"></script>
+<script src="js2/smoothscroll.js"></script>
+<script src="js2/form-validator.min.js"></script>
+<script src="js2/contact-form-script.js"></script>
+<script src="js2/custom.js"></script>
+<script src="js2/timeline.js"></script>
+
+</html>

@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+
+
+
+
+
+
+
+
+.rightcol { 
+    background-image: url('https://images.unsplash.com/photo-1574509412912-6676aedfc8dd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1567&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    float: left;
+    height: 100%;
+}
+
+@media only screen and (min-width: 300px) {
+.rightcol { 
+    background-image: url('https://images.unsplash.com/photo-1574509412912-6676aedfc8dd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1567&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    float: left;
+    height: 100%;
+}}
+
+
+
+
+@media only screen and (max-width: 300px) {
+
+
+    .rightcol {
+        background-image: url(https://images.unsplash.com/photo-1574509412912-6676aedfc8dd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1567&q=80);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        
+        height: 100%;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 300px) {
+    .html
+    .body{
+    width:max-content;
+   
+    }
+    .rightcol {
+        background-image: url(https://images.unsplash.com/photo-1574509412912-6676aedfc8dd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1567&q=80);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:max-content;
+        float: left;
+        height: 100%;
+    }}
+@media only screen and (max-width: 300px) {
+    .titoloscomparire {
+        font-weight: 450;
+        font-family: 'Josefin Sans', sans-serif;
+        color: black;
+        text-align: center;
+        line-height: 74px;
+        visibility: hidden;
+        font-size: 60px;
+   
+    }
+    .rightcol {
+        background-image: url(https://images.unsplash.com/photo-1574509412912-6676aedfc8dd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1567&q=80);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        
+        height: 100%;
+    }
+
+
+
+
+}
+
+
+
+
+@media only screen and (min-width: 300px) {
+
+.titoloscomparire{
+    font-weight: 450;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    text-align: center;
+    line-height: 74px;
+    font-size: 60px;
+ display: none;
+}
+}
+
+    
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+@font-face {
+    font-family: 'Darleston';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Darleston'), url('Darleston.woff') format('woff');
+}
+
+@media only screen and (max-width: 300px) {  
+    .html{
+        width:max-content;
+}
+.body{
+    width:max-content;
+}
+
+.form {
+	width: 300px;
+	height: 50px;
+	background-color: white;
+	border: none;
+}
+.titolosx {
+    font-weight: 450;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    text-align: left;
+    padding-left: 1px;
+    padding-top: 22px;
+    line-height: 74px;
+    font-size: 60px;
+}
+.titoloscomparire{
+    font-weight: 450;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    text-align: center;
+    line-height: 74px;
+    font-size: 60px;
+
+}
+
+
+
+}
+
+
+.spostamento{
+    padding-left: 124px;
+}
+.center{
+    text-align: left;
+    padding-left: 240px;
+    
+}
+.anelli{
+	padding-bottom:40px;
+    padding-top: 70px;
+	width:10%;
+padding-left:18%;
+}
+.titolosx{
+   font-weight: 450;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    text-align: left;
+    padding-left: 240px;
+    padding-top: 70px;
+    line-height: 74px;
+    font-size: 60px;
+
+
+}
+
+
+.titolo{
+    padding-top: 30px;
+   text-align: left;
+    line-height: 43px;
+font-weight: 450;
+font-size: 30px;
+padding-left: 240px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 0;
+}
+
+label {
+	width: 100%;
+	max-width: 100px;
+	display: inline-block;
+	text-align: right;
+}
+
+.form {
+	width: 300px;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.392);
+	border: none;
+}
+
+
+@media only screen and (max-width: 300px) {
+    .anelli{
+        padding-bottom:40px;
+        padding-top: 70px;
+        width:20%;
+    padding-left:18%;
+    }
+    .html{
+        width: 100%;
+    }
+
+    .body{
+        width: 100%;
+    }
+    .titoloscomparire{
+        font-weight: 450;
+        font-family: 'Josefin Sans', sans-serif;
+        color: black;
+        text-align: center;
+        line-height: 74px;
+        font-size: 60px;
+    
+    }
+.form {
+	width: 300px;
+	height: 50px;
+	background-color: white;
+	border: none;
+}
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .titolosx {
+        font-weight: 450;
+        font-family: 'Josefin Sans', sans-serif;
+        color: black;
+        text-align: left;
+        padding-left: 1px;
+        padding-top: 22px;
+        line-height: 74px;
+        font-size: 60px;
+    }
+    .titolo {
+         padding-top: 30px; 
+        text-align: left;
+        line-height: 43px;
+        font-weight: 450;
+        font-size: 30px;
+        padding-left: 1px;
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        
+    }
+
+    .span {
+        background-color: rgba(220, 220, 220, 0.596);
+      }
+    .center {
+        text-align: left;
+        padding-left: 1px;
+    }
+    .html{
+        width: 100%;
+    }
+
+    .body{
+        width: 100%;
+    }
+    .leftcol {
+        display: none;
+        width: 0%;
+        margin-right: 10px;
+        background-image: url('https://images.unsplash.com/photo-1574509412912-6676aedfc8dd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1567&q=80');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+.text {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+
+.bordi {
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 300px;
+}
+
+.bottone {
+	background-color: black;
+	color: white;
+	width: 100px;
+	height: 40px;
+	border: none;
+	border-radius: 11px;
+}
+
+.colcontainer {
+	height: 100%;
+	width: auto;
+	overflow: hidden;
+}
+
+.leftcol {
+    
+	width: 49%;
+	float: left;
+    z-index: 1;
+	background-color: white;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .html{
+        width: 100%;
+    }
+
+    .body{
+        width: 100%;
+    }
+    .rightcol {
+        background-image: url(https://images.unsplash.com/photo-1574509412912-6676aedfc8dd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1567&q=80);
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        height: 100%;
+    }
+    .leftcol {
+        width: 0%;
+
+        margin-right: 10px;
+        background-color: white;
+    }
+
+   
+    label {
+        width: 100%;
+        max-width: 100px;
+        display: inline-block;
+        text-align: right;
+    }
+    
+    div {
+        margin-top: 1em;
+    }
+    
+    .form {
+        width: 300px;
+        height: 50px;
+        background-color: rgba(0, 0, 0, 0.724);
+        border: none;
+    }
+    
+    .text {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+    }
+    
+    .bordi {
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 300px;
+    }
+    
+    .bottone {
+        background-color: black;
+        color: white;
+        width: 100px;
+        height: 40px;
+        border: none;
+        border-radius: 11px;
+    }
+    
+    .colcontainer {
+        height: 100%;
+        width: auto;
+        overflow: hidden;
+    }
+    
+
+    
+    .form {
+        width: 300px;
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        border: none;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 300px) {
+
+    .anelli {
+        padding-bottom: 40px;
+        padding-top: 70px;
+        width: 30%;
+        padding-left: 18%;
+    }
+    .rightcol {
+        background-image: url(https://images.unsplash.com/photo-1574509412912-6676aedfc8dd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1567&q=80);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* width: 50%; */
+        /* float: left; */
+        height: 100%;
+    }    .html{
+        width: 100%;
+    }
+
+    .body{
+        width: 100%;
+    }
+
+    .leftcol{
+        width: 0%;
+    }
+.titoloscomparire{
+    font-weight: 450;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    text-align: center;
+    line-height: 74px;
+    font-size: 60px;
+    visibility:visible;
+
+}
+
+    .form {
+        width: 300px;
+        height: 50px;
+        background-color: white;
+        border: none;
+    }
+    
+    
+    }
+    @media only screen and (max-width: 300px) {
+
+        .rightcol {
+            background-image: url(https://images.unsplash.com/photo-1574509412912-6676aedfc8dd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1567&q=80);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            float: left;
+            height: 100%;
+        }}
+
